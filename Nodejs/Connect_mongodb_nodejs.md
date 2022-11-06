@@ -13,6 +13,7 @@ const connectDB = async () =>{
         useUnifiedTopology : true,
         useNewUrlParser : true,
         useCreateIndex : true
+        // các option bạn cần thêm 
       });
     console.log("Connect DB success !!")
     }catch(error){
